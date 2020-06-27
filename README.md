@@ -1,1 +1,5 @@
 # A-Robust-Semi-supervised-Multiple-Classifier-Systems-for-Face-Recognition
+
+In this paper, we propose  and  implement  a  semi-supervised  multiple  classifiersystems method to identify human attributes, such as gender, from facial imageswith only very limited amount of labeled data. Starting with very limited data andpoor prediction, our model is able to significantly boost the prediction power andachieve high accuracy eventually. We test our method on the famousCelebFacesdataset to identify the gender of the person in the image, and the result is provento be successful.   Moreover,  we apply different types of data augmentations tomake our model even less dependent on the labeled data.   We try general dataaugmentation techniques such as flipping and rotation, and we also try using thecGAN(conditional GAN) to generate more data.  Comparing the results, we findthat the general data augmentation is more effective than cGAN and is able toachieve similar performance with way less data.
+
+
